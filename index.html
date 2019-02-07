@@ -9,7 +9,71 @@
 		
 		<title>Comenzando con la Fotografia</title>
 		
-    		
+    		<style media="screen">
+			#imagenpaisaje{
+				position: relative;
+				left:-5%;
+				border-radius: 10px;
+				border: 1px solid #82c3a6;
+				box-shadow: 2px 2px 10px 2px #82c3a6;
+				width: 30vw;
+				height: 60vh;
+				transition: transform 1.8s;
+				
+			}
+		
+			#imagenpaisaje:hover, :visited{
+				transform:rotate(10deg);
+			}	
+		
+		
+		
+			#imagenretrato{	
+				position: relative;
+				right: -5%;
+				border-radius: 10px;
+				border: 1px solid #82c3a6;
+				box-shadow: 2px 2px 10px 2px #82c3a6;
+				margin-left: 10%;
+				width: 30vw;
+				transition:transform 1.8s
+			}
+
+			#imagenretrato:hover, :visited{
+				transform:translate(20px, -5px);
+			}
+		</style>
+		
+			
+		<link rel="stylesheet" href="./estilos/estil.css">
+		
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+		</style> 
+		<style>
+			h2>a {
+				text-decoration-line: none
+			}
+		</style>
+		<style>
+			#header{
+				animation: header 0.8s
+			}
+			
+			@-webkit-keyframes header{
+				0%{
+					margin-top: 150%
+				}
+				60%{
+					margin-top: -5%
+				}
+				
+				100%{
+					margin-top: 0%
+				}
+			}
+		</style>
+		
 </head>
 
 <body id="body">
